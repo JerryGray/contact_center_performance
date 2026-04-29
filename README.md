@@ -24,17 +24,14 @@ The operation is not understaffed — it is unbalanced. Chat is absorbing dispro
 
 ## Dashboard Preview
 
-### Full Dashboard View
+#### Full Dashboard View
+<img src="screenshots/ccp_full_dashobard">
 
-### Zone A - KPI Row (10 metrics across 3 channels)
+#### Agent Status Matrix - tooltip
+<img src="screenshots/ccp_agent_tooltip">
 
-### Zone B - Current SL% and Longest Wait for each channel, and an Agent Status matrix for each team
-
-### Zone B (Agent Status Matrix) tooltip
-
-### Zone C - Today's Channel Volume & Forecast w/ variance from average, SL% Trend by Channel, and Today's SL% by Team
-
-### Zone C (Today's Channel Volume & Forecast) variance tooltip
+#### Today's Channel Volume & Forecast - variance tooltip
+<img src="screenshots/ccp_variance_tooltip">
 
 ---
 
