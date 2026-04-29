@@ -25,23 +25,23 @@ The operation is not understaffed — it is unbalanced. Chat is absorbing dispro
 ## Dashboard Preview
 
 #### Full Dashboard View
-<img src="screenshots/ccp_full_dashobard">
+<img src="screenshots/ccp_full_dashboard.png">
 
 #### Agent Status Matrix - tooltip
-<img src="screenshots/ccp_agent_tooltip">
+<img src="screenshots/ccp_agent_tooltip.png">
 
 #### Today's Channel Volume & Forecast - variance tooltip
-<img src="screenshots/ccp_variance_tooltip">
+<img src="screenshots/ccp_variance_tooltip.png">
 
 ---
 
 ## Tools Used
 
- - Power BI — star schema data modeling, DAX measures, conditional formatting, custom tooltip pages
- - Python — synthetic data generation with realistic statistical distributions
-   - pandas — DataFrame construction and CSV output across 7 structured files
-   - numpy — log-normal AHT distributions, Poisson contact arrival sampling, truncated normal agent skill variation
-   - faker — realistic agent name generation
+ - Power BI: star schema data modeling, DAX measures, conditional formatting, custom tooltip pages
+ - Python: synthetic data generation with realistic statistical distributions
+   - pandas: DataFrame construction and CSV output across 7 structured files
+   - numpy: log-normal AHT distributions, Poisson contact arrival sampling, truncated normal agent skill variation
+   - faker: realistic agent name generation
 
 ---
 
