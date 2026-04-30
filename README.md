@@ -17,11 +17,10 @@ How are we performing right now across all three contact channels — and where 
  - Email volume in the early afternoon was 89% above the average Wednesday baseline for that time — a demand spike that may be redirecting agent attention away from calls and chat
  - Average Overall occupancy at 65.6% — below the 75–85% target band, suggesting a channel distribution problem rather than a headcount shortage
    
-**Note:** _Avg. Occupancy here is modeled in the synthetic data rather than calculated from contact and handle time data, because the simulated dataset doesn't capture the per-agent activity logs with quite the same level of detail that a real phone system would provide. The value shown should be statistically realistic, but won't reconcile perfectly with the other metrics on the dashboard._
+**Note:** _Avg. Occupancy here is modeled in the synthetic data rather than calculated from contact and handle time data, because the simulated dataset doesn't capture the per-agent activity logs with quite the same level of detail that a real phone system would provide._ The value shown should be statistically realistic, but won't reconcile perfectly with the other metrics on the dashboard.
 
 **Conclusion:**
-The operation is not understaffed — it is unbalanced. Chat is absorbing disproportionate SLA risk while email agents have capacity to spare. Immediate reallocation of agents from email to chat, combined with an investigation into the email volume spike, would be the highest-impact interventions available to the manager at this moment.
-
+The operation is not critically understaffed, but performance is uneven across both channels and teams. While Calls and Chat are healthy for the day overall (83.4% and 80.9% SL% respectively), current-interval performance has dropped sharply for both (Calls at 60.0% and Chat at 66.7%), suggesting afternoon queue pressure is building for both. The highest-impact actions for a manager right now would probably be investigating the source of the rise in queue pressure and possibly reallocating some agents from email focus to call and chat handling.
 ---
 
 ## Dashboard Preview
@@ -56,6 +55,7 @@ The operation is not understaffed — it is unbalanced. Chat is absorbing dispro
  - Built 40+ DAX measures covering service level %, handle time, queue wait time, agent adherence, historical baseline comparison, and next-interval SL% projection
  - Designed a single-page dashboard with 3 analytical zones, each addressing aspects of the core question.
  - Applied channel-coded conditional formatting (RAG status via hex-returning DAX measures) and a solid-to-dashed volume forecast chart showing today's actual volume transitioning to historical Wednesday averages for the remaining hours
+**Note on channel assignment:** For this simulation, each team handles two contact channels, with Sales & Pre-purchase Emails routed to a shared queue with the Orders & Fulfillment team for handling.
 
 #### Model View
 <img src="screenshots/ccp_model_view.png">
