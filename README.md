@@ -54,3 +54,6 @@ The operation is not understaffed — it is unbalanced. Chat is absorbing dispro
  - Built 40+ DAX measures covering service level %, handle time, queue wait time, agent adherence, historical baseline comparison, and next-interval SL% projection
  - Designed a single-page dashboard with 3 analytical zones, each addressing aspects of the core question.
  - Applied channel-coded conditional formatting (RAG status via hex-returning DAX measures) and a solid-to-dashed volume forecast chart showing today's actual volume transitioning to historical Wednesday averages for the remaining hours
+
+#### Model View
+<img src="screenshots/ccp_model_view.png">
