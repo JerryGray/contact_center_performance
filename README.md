@@ -66,6 +66,7 @@ The operation is not critically understaffed, but performance is uneven across b
  - Designed a single-page dashboard with 3 analytical zones, each addressing aspects of the core question.
  - Applied channel-coded conditional formatting (RAG status via hex-returning DAX measures) and a solid-to-dashed volume forecast chart showing today's actual volume transitioning to historical Wednesday averages for the remaining hours
  - Built custom tooltip pages for each KPI group to show team-level breakdowns on hover, allowing for more detail without the need to navigate to other pages.
+
 **Note on channel assignment:** For this simulation, each team handles two contact channels, with Sales & Pre-purchase Emails routed to a shared queue with the Orders & Fulfillment team for handling.
 
 #### Model View
