@@ -16,6 +16,8 @@ How are we performing right now across all three contact channels — and where 
  - Email is healthy — 100% SL% across the day; oldest ticket at 13h 57m, well within the 24-hour threshold
  - Email volume in the early afternoon was 89% above the average Wednesday baseline for that time — a demand spike that may be redirecting agent attention away from calls and chat
  - Overall occupancy at 65.6% — below the 75–85% target band, suggesting a channel distribution problem rather than a headcount shortage
+   
+**Note:** _Avg. Occupancy here is modeled in the synthetic data rather than calculated from contact and handle time data, because the simulated dataset doesn't capture the per-agent activity logs with quite the same level of detail that a real phone system would provide. The value shown should be statistically realistic, but won't reconcile perfectly with the other metrics on the dashboard._
 
 **Conclusion:**
 The operation is not understaffed — it is unbalanced. Chat is absorbing disproportionate SLA risk while email agents have capacity to spare. Immediate reallocation of agents from email to chat, combined with an investigation into the email volume spike, would be the highest-impact interventions available to the manager at this moment.
